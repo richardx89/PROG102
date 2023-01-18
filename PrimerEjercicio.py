@@ -1,5 +1,7 @@
-hours = input("enter the hours worked: ")
-rate = input("enter the rate: ")
+hours1 = input("enter the hours worked: ")
+hours = int(hours1)
+rate1 = input("enter the rate: ")
+rate = int(rate1)
 
 if hours < 40:
     salary = hours*rate
